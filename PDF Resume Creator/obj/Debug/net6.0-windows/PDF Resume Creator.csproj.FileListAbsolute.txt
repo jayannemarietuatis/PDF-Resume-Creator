@@ -1,0 +1,19 @@
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\PDF Resume Creator.exe
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\PDF Resume Creator.deps.json
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\PDF Resume Creator.runtimeconfig.json
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\PDF Resume Creator.dll
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\PDF Resume Creator.pdb
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF_Resume_Creator.formResume.resources
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.csproj.GenerateResource.cache
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.AssemblyInfo.cs
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.csproj.CopyComplete
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.dll
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\refint\PDF Resume Creator.dll
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.pdb
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.genruntimeconfig.cache
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\ref\PDF Resume Creator.dll
