@@ -2,7 +2,6 @@ using Newtonsoft.Json;
 using iTextSharp;
 using iTextSharp.text.pdf;
 
-
 namespace PDF_Resume_Creator
 {
     public partial class formResume : Form
@@ -11,7 +10,6 @@ namespace PDF_Resume_Creator
         {
             InitializeComponent();
         }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
             List<Resume> applicants = new List<Resume>();
@@ -43,7 +41,6 @@ namespace PDF_Resume_Creator
             string json = JsonConvert.SerializeObject(r1, Formatting.Indented);
             File.WriteAllText(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\JSON\Resume.json", json);
             applicants.Add(r1);
-
         }
         class Resume
         {
@@ -70,30 +67,27 @@ namespace PDF_Resume_Creator
             public string Achievement2;
             public string Achievement3;
         }
-
         private void btnReadJSON_Click(object sender, EventArgs e)
         {
             StreamReader reader = new StreamReader(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\JSON\Resume.json");
             string info = reader.ReadToEnd();
             rchtxbxJSON.Text = info;
         }
-
         private void btnConvert_Click(object sender, EventArgs e)
         {
-            using (SaveFileDialog dialog = new SaveFileDialog() { Filter = "PDF|*.pdf", ValidateNames = true })
+            using (SaveFileDialog dialog = new SaveFileDialog() { Filter = "PDF|*.pdf", ValidateNames = true})
             {
                 if (dialog.ShowDialog() == DialogResult.OK)
                 {
-                    iTextSharp.text.Document document = new iTextSharp.text.Document(/*pageSize:A4.Rotate()*/);
+                    iTextSharp.text.Document document = new iTextSharp.text.Document();
                     try
                     {
                         PdfWriter.GetInstance(document, new FileStream(dialog.FileName, FileMode.Create));
                         document.Open();
+                        document.Add(new iTextSharp.text.Paragraph(rchtxbxJSON.Text));
                     }
                     catch (Exception)
-                    {
-
-                       
+                    {  
                     }
                     finally
                     {
