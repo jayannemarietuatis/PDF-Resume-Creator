@@ -80,6 +80,27 @@ namespace PDF_Resume_Creator
 
         private void btnConvert_Click(object sender, EventArgs e)
         {
+            using (SaveFileDialog dialog = new SaveFileDialog() { Filter = "PDF|*.pdf", ValidateNames = true })
+            {
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    iTextSharp.text.Document document = new iTextSharp.text.Document(/*pageSize:A4.Rotate()*/);
+                    try
+                    {
+                        PdfWriter.GetInstance(document, new FileStream(dialog.FileName, FileMode.Create));
+                        document.Open();
+                    }
+                    catch (Exception)
+                    {
+
+                       
+                    }
+                    finally
+                    {
+                        document.Close();
+                    }
+                }
+            }
 
         }
     }

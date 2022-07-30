@@ -17,3 +17,4 @@ C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Deb
 C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.pdb
 C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\PDF Resume Creator.genruntimeconfig.cache
 C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\obj\Debug\net6.0-windows\ref\PDF Resume Creator.dll
+C:\Users\DELL\Desktop\OOP Projects\PDF Resume Creator\PDF Resume Creator\bin\Debug\net6.0-windows\itextsharp.dll
