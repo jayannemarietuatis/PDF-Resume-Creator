@@ -65,6 +65,7 @@
             this.lblEducation = new System.Windows.Forms.Label();
             this.lblAchievements = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
+            this.btnReadJSON = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbxName
@@ -357,7 +358,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.Location = new System.Drawing.Point(879, 909);
+            this.btnSave.Location = new System.Drawing.Point(916, 878);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 29);
             this.btnSave.TabIndex = 37;
@@ -365,11 +366,23 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
+            // btnReadJSON
+            // 
+            this.btnReadJSON.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnReadJSON.Location = new System.Drawing.Point(1038, 878);
+            this.btnReadJSON.Name = "btnReadJSON";
+            this.btnReadJSON.Size = new System.Drawing.Size(152, 29);
+            this.btnReadJSON.TabIndex = 38;
+            this.btnReadJSON.Text = "Read JSON File";
+            this.btnReadJSON.UseVisualStyleBackColor = true;
+            this.btnReadJSON.Click += new System.EventHandler(this.btnReadJSON_Click);
+            // 
             // formResume
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1304, 960);
+            this.ClientSize = new System.Drawing.Size(1453, 960);
+            this.Controls.Add(this.btnReadJSON);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblAchievements);
             this.Controls.Add(this.lblEducation);
@@ -453,5 +466,6 @@
         private Label lblEducation;
         private Label lblAchievements;
         private Button btnSave;
+        private Button btnReadJSON;
     }
 }
