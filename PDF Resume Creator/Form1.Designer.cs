@@ -67,6 +67,7 @@
             this.btnSave = new System.Windows.Forms.Button();
             this.btnReadJSON = new System.Windows.Forms.Button();
             this.rchtxbxJSON = new System.Windows.Forms.RichTextBox();
+            this.btnConvert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtbxName
@@ -386,11 +387,23 @@
             this.rchtxbxJSON.TabIndex = 39;
             this.rchtxbxJSON.Text = "";
             // 
+            // btnConvert
+            // 
+            this.btnConvert.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnConvert.Location = new System.Drawing.Point(1196, 878);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(201, 29);
+            this.btnConvert.TabIndex = 40;
+            this.btnConvert.Text = "Convert JSON to PDF";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
+            // 
             // formResume
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1453, 960);
+            this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.rchtxbxJSON);
             this.Controls.Add(this.btnReadJSON);
             this.Controls.Add(this.btnSave);
@@ -478,5 +491,6 @@
         private Button btnSave;
         private Button btnReadJSON;
         private RichTextBox rchtxbxJSON;
+        private Button btnConvert;
     }
 }

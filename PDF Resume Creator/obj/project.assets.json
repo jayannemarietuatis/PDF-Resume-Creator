@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
+      "iTextSharp/5.5.9": {
+        "type": "package",
+        "compile": {
+          "lib/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {}
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -14,6 +23,21 @@
     }
   },
   "libraries": {
+    "iTextSharp/5.5.9": {
+      "sha512": "ZujfzAwauALd4MoOy/O4/IVKdFSAJ4dJeE2vHlWpes+4Ms+djl5bHR4alXv4PZ60uqA6M67QmAkQQxKw+lVMaA==",
+      "type": "package",
+      "path": "itextsharp/5.5.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AGPL.txt",
+        "itextsharp.5.5.9.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/iTextSharp.xml",
+        "lib/itextsharp.dll",
+        "notice.txt"
+      ]
+    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -44,7 +68,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Newtonsoft.Json >= 13.0.1"
+      "Newtonsoft.Json >= 13.0.1",
+      "iTextSharp >= 5.5.9"
     ]
   },
   "packageFolders": {
@@ -89,6 +114,10 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "iTextSharp": {
+            "target": "Package",
+            "version": "[5.5.9, )"
           }
         },
         "imports": [
@@ -112,5 +141,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'iTextSharp 5.5.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

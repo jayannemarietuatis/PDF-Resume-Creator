@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "iTextSharp/5.5.9": {
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.9.0",
+            "fileVersion": "5.5.9.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.1": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -17,6 +25,13 @@
     }
   },
   "libraries": {
+    "iTextSharp/5.5.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZujfzAwauALd4MoOy/O4/IVKdFSAJ4dJeE2vHlWpes+4Ms+djl5bHR4alXv4PZ60uqA6M67QmAkQQxKw+lVMaA==",
+      "path": "itextsharp/5.5.9",
+      "hashPath": "itextsharp.5.5.9.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
       "serviceable": true,

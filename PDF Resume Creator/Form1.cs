@@ -1,4 +1,6 @@
 using Newtonsoft.Json;
+using iTextSharp;
+using iTextSharp.text.pdf;
 
 
 namespace PDF_Resume_Creator
@@ -74,6 +76,11 @@ namespace PDF_Resume_Creator
             StreamReader reader = new StreamReader(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\JSON\Resume.json");
             string info = reader.ReadToEnd();
             rchtxbxJSON.Text = info;
+        }
+
+        private void btnConvert_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
