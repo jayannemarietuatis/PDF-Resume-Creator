@@ -38,7 +38,7 @@ namespace PDF_Resume_Creator
                 Achievement2 = txtbxAchieve2.Text,
                 Achievement3 = txtbxAchieve3.Text,
             };
-            string json = JsonConvert.SerializeObject(r1);
+            string json = JsonConvert.SerializeObject(r1, Formatting.Indented);
             File.WriteAllText(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\JSON\Resume.json", json);
             applicants.Add(r1);
 
