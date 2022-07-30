@@ -89,7 +89,11 @@ namespace PDF_Resume_Creator
                     }
                     catch (Exception)
                     {
-
+                        MessageBox.Show("Error");
+                    }
+                    finally
+                    {
+                        document.Close();
                     }
                 }
             }
