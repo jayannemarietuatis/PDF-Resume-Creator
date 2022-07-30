@@ -85,17 +85,14 @@ namespace PDF_Resume_Creator
                         PdfWriter.GetInstance(document, new FileStream(dialog.FileName, FileMode.Create));
                         document.Open();
                         document.Add(new iTextSharp.text.Paragraph(rchtxbxJSON.Text));
+                        Close();
                     }
                     catch (Exception)
-                    {  
-                    }
-                    finally
                     {
-                        document.Close();
+
                     }
                 }
             }
-
         }
     }
 }

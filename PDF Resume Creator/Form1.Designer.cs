@@ -78,6 +78,7 @@
             this.txtbxName.Name = "txtbxName";
             this.txtbxName.Size = new System.Drawing.Size(381, 75);
             this.txtbxName.TabIndex = 1;
+            this.txtbxName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtbxContact
             // 
@@ -383,7 +384,7 @@
             // 
             this.rchtxbxJSON.Location = new System.Drawing.Point(1038, 53);
             this.rchtxbxJSON.Name = "rchtxbxJSON";
-            this.rchtxbxJSON.Size = new System.Drawing.Size(327, 819);
+            this.rchtxbxJSON.Size = new System.Drawing.Size(348, 819);
             this.rchtxbxJSON.TabIndex = 39;
             this.rchtxbxJSON.Text = "";
             // 
