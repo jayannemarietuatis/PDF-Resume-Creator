@@ -66,6 +66,7 @@
             this.lblAchievements = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnReadJSON = new System.Windows.Forms.Button();
+            this.rchtxbxJSON = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // txtbxName
@@ -377,11 +378,20 @@
             this.btnReadJSON.UseVisualStyleBackColor = true;
             this.btnReadJSON.Click += new System.EventHandler(this.btnReadJSON_Click);
             // 
+            // rchtxbxJSON
+            // 
+            this.rchtxbxJSON.Location = new System.Drawing.Point(1038, 53);
+            this.rchtxbxJSON.Name = "rchtxbxJSON";
+            this.rchtxbxJSON.Size = new System.Drawing.Size(327, 819);
+            this.rchtxbxJSON.TabIndex = 39;
+            this.rchtxbxJSON.Text = "";
+            // 
             // formResume
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1453, 960);
+            this.Controls.Add(this.rchtxbxJSON);
             this.Controls.Add(this.btnReadJSON);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.lblAchievements);
@@ -467,5 +477,6 @@
         private Label lblAchievements;
         private Button btnSave;
         private Button btnReadJSON;
+        private RichTextBox rchtxbxJSON;
     }
 }

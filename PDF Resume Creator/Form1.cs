@@ -73,7 +73,7 @@ namespace PDF_Resume_Creator
         {
             StreamReader reader = new StreamReader(@"C:\Users\DELL\Desktop\JAY ANNE\PUP\2ND SEM\OBJECT PROG\JSON\Resume.json");
             string info = reader.ReadToEnd();
-            MessageBox.Show(info);
+            rchtxbxJSON.Text = info;
         }
     }
 }
