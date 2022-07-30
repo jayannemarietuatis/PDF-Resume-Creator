@@ -303,7 +303,7 @@
             // lblMother
             // 
             this.lblMother.AutoSize = true;
-            this.lblMother.Location = new System.Drawing.Point(21, 367);
+            this.lblMother.Location = new System.Drawing.Point(21, 371);
             this.lblMother.Name = "lblMother";
             this.lblMother.Size = new System.Drawing.Size(113, 20);
             this.lblMother.TabIndex = 31;
@@ -361,7 +361,7 @@
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.Location = new System.Drawing.Point(916, 878);
+            this.btnSave.Location = new System.Drawing.Point(885, 906);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(94, 29);
             this.btnSave.TabIndex = 37;
@@ -384,7 +384,7 @@
             // 
             this.rchtxbxJSON.Location = new System.Drawing.Point(1038, 53);
             this.rchtxbxJSON.Name = "rchtxbxJSON";
-            this.rchtxbxJSON.Size = new System.Drawing.Size(348, 819);
+            this.rchtxbxJSON.Size = new System.Drawing.Size(359, 819);
             this.rchtxbxJSON.TabIndex = 39;
             this.rchtxbxJSON.Text = "";
             // 
